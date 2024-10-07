@@ -1,0 +1,230 @@
+<!DOCTYPE html >
+< html >
+
+< cabeça >
+    < meta  charset =" UTF-8 " >
+    < meta  name =" viewport " content =" width=largura-do-dispositivo, escala-inicial=1.0 " >
+    < título > AluraBooks </ título >
+    < link  rel =" folha de estilo " href =" reset.css " >
+    < link  rel =" folha de estilo " href =" styles.css " >
+    </ cabeça >
+
+    < link  rel =" folha de estilo " href =" estilos.css " />
+    </ cabeça >
+    
+    
+    < corpo >
+      < header  class =" cabeçalho " >
+        < div  class =" contêiner " >
+          < span  class =" cabeçalho__menu-hamburguer container__imagem " > </ span >
+          < img  src =" img/Logo.svg " alt =" Logo da AluraBooks " class =" container__imagem " >
+        </div>​​
+        < div  class =" contêiner " >
+          < tipo de entrada  =" caixa de seleção " id =" menu " classe =" container__botao " >
+          < tipo de entrada  =" caixa de seleção " id =" menu " classe =" container__botao " />
+          < rótulo  para =" menu " >
+            < span  class =" cabeçalho__menu-hamburguer container__imagem " > </ span >
+          </ rótulo >
+    @@ -42,8 +37,11 @@
+              < a  href =" # " class =" lista-menu__link " > Design e UX </ a >
+            </ li >
+          </ul>​​
+          < img  src =" img/Logo.svg " alt =" Logo da Alurabooks " class =" container__imagem " >
+        </div>​​
+        < div  class =" contêiner " >
+          < a  href =" # " > < img  src =" img/Favoritos.svg " alt =" Meus favoritos " class =" container__imagem " > </ a >
+          < a  href =" # " > < img  src =" img/Compras.svg " alt =" Carrinho de compras " class =" container__imagem " > </ a >
+          < a  href =" # " > < img  src =" img/Compras.svg " alt =" Carrinhos de compras " class =" container__imagem " > </ a >
+          < a  href =" # " > < img  src =" img/Usuario.svg " alt =" Meu perfil " class =" container__imagem " > </ a >
+        </div>​​
+      </ cabeçalho >
+      < p >
+      < input  type =" search " class =" banner_pesquisa " placeholder =" Qual será sua próxima leitura? " >
+  </ seção >
+
+  < seção  classe =" carrossel " >
+    < h2  class =" carrossel__titulo " > Novos lançamentos </ h2 >
+    <!-- Contêiner principal do controle deslizante -->
+    < div  class =" deslizador " >
+      <!-- Wrapper adicional necessário -->
+      <!-- Se precisarmos de paginação -->
+      < div  class =" swiper-pagination " > </ div >
+
+      < div  class =" swiper-wrapper " >
+        <!-- Slides -->
+        < div  class =" deslizador-deslizante " > < img  src =" img/ApacheKafka.svg "
+            alt =" Livro sobre apache kafka e spring boot da alura books " > </ div >
+        < div  class =" swiper-slide " > < img  src =" img/Liderança.svg " alt =" Livro sobre liderança em design da alura books " >
+        </div>​​
+        < div  class =" swiper-slide " > < img  src =" img/Javascript.svg " alt =" Livro sobre javascript assertivo da alurabooks " >
+        </div>​​
+        < div  class =" swiper-slide " > < img  src =" img/Guia Front-end.svg " alt =" Livro Guia front end " > </ div >
+        < div  class =" swiper-slide " > < img  src =" img/Portugol.svg " alt =" Livro sobre portugol " > </ div >
+        < div  class =" swiper-slide " > < img  src =" img/Acessibilidade.svg " alt =" livro sobre acessibilidade " > </ div >
+      </div>​​
+
+      <!-- Se precisarmos de paginação -->
+      < div  class =" swiper-pagination " > </ div >
+
+      <!-- Se precisarmos de botões de navegação -->
+      < div  class =" botão-deslizante-anterior " > </ div >
+      < div  class =" botão-deslizante-próximo " > </ div >
+
+      <!-- Se precisarmos de barra de rolagem -->
+      < div  class =" barra de rolagem deslizante " > </ div >
+    </div>​​
+  </ seção >
+
+  < script  src =" https://unpkg.com/swiper@8/swiper-bundle.min.js " > </ script >
+</ corpo >
+
+</ html >
+</div>​​
+</div>​​
+
+</ seção >
+
+< seção  class = ”carrossel” >
+< h2  class =" carrossel__titulo " > Mais vendidos </ h2 >
+< div  class =" deslizador " >
+  <!-- Wrapper adicional necessário -->
+  <!-- Se precisarmos de paginação -->
+  < div  class =" swiper-pagination " > </ div >
+
+  < div  class =" swiper-wrapper " >
+    <!-- Slides -->
+    < div  class =" deslizador-deslizante " > < img  src =" img/ApacheKafka.svg "
+        alt =" Livro sobre apache kafka e spring boot da alura books " > </ div >
+    < div  class =" swiper-slide " > < img  src =" img/Liderança.svg " alt =" Livro sobre liderança em design da alura books " >
+    </div>​​
+    < div  class =" swiper-slide " > < img  src =" img/Javascript.svg " alt =" Livro sobre javascript assertivo da alurabooks " >
+    </div>​​
+    < div  class =" swiper-slide " > < img  src =" img/Guia Front-end.svg " alt =" Livro Guia front end " > </ div >
+    < div  class =" swiper-slide " > < img  src =" img/Portugol.svg " alt =" Livro sobre portugol " > </ div >
+    < div  class =" swiper-slide " > < img  src =" img/Acessibilidade.svg " alt =" livro sobre acessibilidade " > </ div >
+  </div>​​
+
+  <!-- Se precisarmos de botões de navegação -->
+  < div  class =" botão-deslizante-anterior " > </ div >
+  < div  class =" botão-deslizante-próximo " > </ div >
+</div>​​
+
+< div  class =" cartão " >
+  <!-- 1ª linha -->
+  < div  class =" cartão__descrição " >
+    <!-- 1ª coluna -->
+    < div  class =" descrição " >
+      < img  src =" img/Estrelinhas.svg " alt =" Avaliação 5 estrelas " >
+      < h3  class =" descrição__titulo " > Autora do Mês </ h3 >
+      < h2  class =" descrição__titulo-livro " > Juliana Agarikov </ h2 >
+      < p  class =" descrição__texto " > Analista de sistemas e escritora, Juliana é especialista em Front-End.
+      </ p >
+    </div>​​
+    <!-- 2ª coluna -->
+    < img  src =" img/Escritora.svg " class =" descrição__imagem " >
+  </div>​​
+
+  <!-- 2ª linha -->
+  < div  class =" cartão__botões " >
+    <!-- 1ª coluna -->
+    < ul  class =" botões " >
+      < li  class =" botões__item " > < img  src =" img/Favoritos.svg " alt =" Favoritar livro " > </ li >
+      < li  class =" botões__item " > < img  src =" img/Compras.svg " alt =" Adicionar no carrinho de compras " > </ li >
+    </ul>​​
+    <!-- 2ª coluna -->
+    < a  href =" # " class =" botões__ancora " > Saiba mais </ a >
+  </div>​​
+</div>​​
+</ seção >
+
+< script  src =" https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js " > </ script >
+
+</ seção >
+
+< seção  class = ”carrossel” >
+  < h2  class =" carrossel__titulo " > Mais vendidos </ h2 >
+  < div  class =" deslizador " >
+    <!-- Wrapper adicional necessário -->
+    <!-- Se precisarmos de paginação -->
+    < div  class =" swiper-pagination " > </ div >
+
+    < div  class =" swiper-wrapper " >
+      <!-- Slides -->
+      < div  class =" deslizador-deslizante " > < img  src =" img/ApacheKafka.svg "
+          alt =" Livro sobre apache kafka e spring boot da alura books " > </ div >
+      < div  class =" swiper-slide " > < img  src =" img/Liderança.svg " alt =" Livro sobre liderança em design da alura books " >
+      </div>​​
+      < div  class =" swiper-slide " > < img  src =" img/Javascript.svg " alt =" Livro sobre javascript assertivo da alurabooks " >
+      </div>​​
+      < div  class =" swiper-slide " > < img  src =" img/Guia Front-end.svg " alt =" Livro Guia front end " > </ div >
+      < div  class =" swiper-slide " > < img  src =" img/Portugol.svg " alt =" Livro sobre portugol " > </ div >
+      < div  class =" swiper-slide " > < img  src =" img/Acessibilidade.svg " alt =" livro sobre acessibilidade " > </ div >
+    </div>​​
+
+    <!-- Se precisarmos de botões de navegação -->
+    < div  class =" botão-deslizante-anterior " > </ div >
+    < div  class =" botão-deslizante-próximo " > </ div >
+  </div>​​
+
+  < div  class =" cartão " >
+    <!-- 1ª linha -->
+    < div  class =" cartão__descrição " >
+      <!-- 1ª coluna -->
+      < div  class =" descrição " >
+        < img  src =" img/Estrelinhas.svg " alt =" Avaliação 5 estrelas " >
+        < h3  class =" descrição__titulo " > Autora do Mês </ h3 >
+        < h2  class =" descrição__titulo-livro " > Juliana Agarikov </ h2 >
+        < p  class =" descrição__texto " > Analista de sistemas e escritora, Juliana é especialista em Front-End.
+        </ p >
+      </div>​​
+      <!-- 2ª coluna -->
+      < img  src =" img/Escritora.svg " class =" descrição__imagem " >
+    </div>​​
+
+    <!-- 2ª linha -->
+    < div  class =" cartão__botões " >
+      <!-- 1ª coluna -->
+      < ul  class =" botões " >
+        < li  class =" botões__item " > < img  src =" img/Favoritos.svg " alt =" Favoritar livro " > </ li >
+        < li  class =" botões__item " > < img  src =" img/Compras.svg " alt =" Adicionar no carrinho de compras " > </ li >
+      </ul>​​
+      <!-- 2ª coluna -->
+      < a  href =" # " class =" botões__ancora " > Saiba mais </ a >
+    </div>​​
+  </div>​​
+
+
+
+</ seção >
+
+< seção  class =" descritos " >
+  < h2  class =" tópicos__titulo " > TÓPICOS VISITADOS RECENTEMENTE </ h2 >
+  < ul  class =" tópicos__lista " >
+    < li  class =" tópicos__item " > < a  href =" # " class =" tópicos__link " > Android </ a > </ li >
+    < li  class =" tópicos__item " >
+      < a  href =" # " class =" tópicos__link " > Marketing Digital </ a >
+    </ li >
+    < li  class =" tópicos__item " >
+      < a  href =" # " class =" tópicos__link " > Ágil </ a >
+    </ li >
+    < li  class =" tópicos__item " >
+      < a  href =" # " class =" tópicos__link " > Startups </ a >
+    </ li >
+    < li  class =" tópicos__item " >
+      < a  href =" # " class =" tópicos__link " > HTML e CSS </ a >
+    </ li >
+    < li  class =" tópicos__item " >
+      < a  href =" # " class =" tópicos__link " > Python </ a >
+    </ li >
+    < li  class =" tópicos__item " >
+      < a  href =" # " class =" tópicos__link " > OO </ a >
+    </ li >
+    < li  class =" tópicos__item " >
+      < a  href =" # " class =" tópicos__link " > Java </ a >
+    </ li >
+  </ul>​​
+</ seção >
+
+< script  src =" https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js " > </ script >
+< roteiro >
+  const  swiper  =  novo  Swiper ( ".swiper" ,  {
